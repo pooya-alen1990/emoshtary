@@ -1,0 +1,15 @@
+RewriteEngine On
+ 
+RewriteRule ^([^/]*)/$ index.php?province=$1
+
+#RewriteRule ^([^/]*)$ index.php?province=$1
+
+RewriteRule ^([^/]*)/([^/]*)/$ index.php?province=$1&city=$2
+
+#RewriteRule ^([^/]*)/([^/]*)$ index.php?province=$1&city=$2
+
+RewriteRule ^([^/]*)/([^/]*)/([^/]*)/$ index.php?pages=$1&info=$2&page=$3
+
+#RewriteRule ^([^/]*)/([^/]*)/([^/]*)$ index.php?pages=$1&info=$2&page=$3
+
+ErrorDocument 404 /404.html
