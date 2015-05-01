@@ -21,11 +21,11 @@
 	        			<!-- End Map -->
 	        			<!-- Contact Info -->
                         
-                        <br><br><br>
-	        			<p class="contact-us-details">
-	        				<b>آدرس: </b> خیابان شهید بهشتی ، بعد از خیابان میر عماد ، پلاک 294 ، طبقه پنجم ، واحد 501<br/>
-	        				<b>تلفن: </b> 2-88759591<br/>
-	        				<b>فکس: </b> 88759592<br/>
+                        <br><br><br><br>
+	        			<p class="contact-us-details" style="font-size:18px">
+	        				<b>آدرس: </b> خیابان شهید بهشتی ، بعد از خیابان میر عماد ، پلاک 294 ، طبقه پنجم ، واحد 501<br/><br>
+	        				<b>تلفن: </b> 2-88759591<br/><br>
+	        				<b>فکس: </b> 88759592<br/><br>
 	        				<b>ایمیل: </b> <a href="mailto:info@emoshtary.ir">info@emoshtary.ir</a>
 	        			</p>
 	        			<!-- End Contact Info -->
@@ -36,19 +36,21 @@
 	        			<div class="contact-form-wrapper">
 		        			<form class="form-horizontal" role="form">
 		        				 <div class="form-group">
-		        				 	<label for="Name" class="col-sm-3 control-label"><b>نام</b></label>
 		        				 	<div class="col-sm-9">
 										<input class="form-control" id="Name" type="text" placeholder="">
 									</div>
+                                    <label for="Name" class="col-sm-3 control-label"><b>نام</b></label>
+
 								</div>
 								<div class="form-group">
-									<label for="contact-email" class="col-sm-3 control-label"><b>ایمیل</b></label>
+									
 									<div class="col-sm-9">
 										<input class="form-control" id="contact-email" type="text" placeholder="">
 									</div>
+                                    <label for="contact-email" class="col-sm-3 control-label"><b>ایمیل</b></label>
 								</div>
 								<div class="form-group">
-									<label for="contact-message" class="col-sm-3 control-label"><b>موضوع</b></label>
+									
 									<div class="col-sm-9">
 										<select class="form-control" id="prependedInput">
 											<option>موضوع خود را انتخاب نمایید</option>
@@ -57,16 +59,18 @@
 											<option>واحد فنی</option>
 										</select>
 									</div>
+                                    <label for="contact-message" class="col-sm-3 control-label"><b>موضوع</b></label>
 								</div>
 								<div class="form-group">
-									<label for="contact-message" class="col-sm-3 control-label"><b>متن پیام</b></label>
+									
 									<div class="col-sm-9">
 										<textarea class="form-control" rows="5" id="contact-message"></textarea>
 									</div>
+                                    <label for="contact-message" class="col-sm-3 control-label"><b>متن پیام</b></label>
 								</div>
 								<div class="form-group">
-									<div class="col-sm-12">
-										<button type="submit" class="btn pull-right">ارسال</button>
+									<div class="col-sm-9">
+										<button type="submit" class="btn pull-right">ارسال پیام</button>
 									</div>
 								</div>
 		        			</form>

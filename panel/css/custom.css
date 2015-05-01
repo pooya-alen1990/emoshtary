@@ -10,8 +10,8 @@ body{
 	background:#fff none repeat fixed;
     font-family: koodak, "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size:15px;
-	color:#5e5d5d !important;
-	background-image:url(../images/bg.jpg);
+	color:#999 !important;
+	background-image:url(../images/page-background.png);
 	
 	margin:0;
 	padding:0;
@@ -31,10 +31,14 @@ a:hover{
 	color:#5e5d5d !important;
 	}
 .navbar-default {
-	background-color:#FACE0E;
-	border:1px solid #000 !important;
+	background-color:#fff;
+	border-bottom:3px solid #FACE0E !important;
 	
-	min-height:50px;
+	min-height:75px;
+	
+	}
+.cbp-tm-menu{
+	margin-top:13px;
 	}
 .btn-search {
 	background-color:#2F2F2F;
@@ -47,7 +51,7 @@ a:hover{
 	border:1px solid #5A5A5A;
 	}
 .navbar-default .navbar-nav > li > a {
-	color:#2F2F2F;
+	color:#999;
 	}
 .navbar-default .navbar-nav > li > a:hover {
 	color:#000;
@@ -59,7 +63,7 @@ a:hover{
 	position:fixed;
 	top:0;
 	height:100%;	
-	border-left:1px solid #FACE0E;
+	border-left:3px solid #FACE0E;
 	padding-top:80px;
 	}
 .nav-right a{
@@ -131,7 +135,7 @@ footer hr {
 	padding:0 !important;
 	margin-left:0 !important;
 	margin-right:0 !important;
-	margin-top:50px;
+	margin-top:75px;
 	height:auto;
 	}
 .contact {

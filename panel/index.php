@@ -52,70 +52,63 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="<?php echo $prefix; ?>/">
-      	<img src="<?php echo $prefix; ?>/images/logo.png" width="50">
+      	<img src="<?php echo $prefix; ?>/images/logo.png" width="70">
       </a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="شغل، زمینه فعالیت یا تلفن">
-          <input type="text" class="form-control" placeholder="نام شهر یا معابر">
-        </div>
-        <button type="submit" class="btn btn-default btn-search">جستجو</button>
-      </form>
+      
       <ul class="nav navbar-nav navbar-right cbp-tm-menu" id="cbp-tm-menu">
       
-      <?php if(isset($_GET['province'])){
-		  $city_query = " SELECT * FROM `city` WHERE province = '$_GET[province]' ; " ;
-		  $city_result = mysqli_query($connection,$city_query);
-      echo '<li>
-              <a href="#" style="padding-right:0px;">';
+     <?php //if(isset($_GET['province'])){
+		//  $city_query = " SELECT * FROM `city` WHERE province = '$_GET[province]' ; " ;
+		//  $city_result = mysqli_query($connection,$city_query);
+     // echo '<li>
+            //  <a href="#" style="padding-right:0px;">';
 			
-              	if(isset($_GET['city'])){
-					echo convertIdToName($connection,$_GET['city'],'city');
-					}else{
-						echo 'همه';
-						}
+             // 	if(isset($_GET['city'])){
+				//	echo convertIdToName($connection,$_GET['city'],'city');
+				//	}else{
+				//		echo 'همه';
+				//		}
 			  
-			  echo ' <i class="fa fa-caret-down"></i></a>
-              <ul class="cbp-tm-submenu"> ';   
+			//  echo ' <i class="fa fa-caret-down"></i></a>
+            //  <ul class="cbp-tm-submenu"> ';   
             
-			  	while($city_row = mysqli_fetch_assoc($city_result)){
-						echo "<li><a href='?province=$_GET[province]&city=$city_row[id]'>$city_row[name]</a></li>";
-					}
+			//  	while($city_row = mysqli_fetch_assoc($city_result)){
+			//			echo "<li><a href='?province=$_GET[province]&city=$city_row[id]'>$city_row[name]</a></li>";
+		//			}
 			 	
-            echo '                     
-              </ul>
-          </li><li><a href="#"> انتخاب شهرستان <i class="fa fa-angle-double-left"></i></a></li>
-       ';
-       }
-       ?>
+        //    echo '                     
+       //       </ul>
+      //    </li><li><a href="#"> انتخاب شهرستان <i class="fa fa-angle-double-left"></i></a></li>
+  //     ';
+   //    }
+  //     ?>
        	<li>
               <a href="#" style="padding-right:0px;">
               <?php
               	if(isset($_GET['province'])){
-					echo convertIdToName($connection,$_GET['province'],'province');
+				//	echo convertIdToName($connection,$_GET['province'],'province');
 					}else{
-						echo 'همه';
+				//		echo 'همه';
 						}
 			  ?>
-               <i class="fa fa-caret-down"></i></a>
+              <!-- <i class="fa fa-caret-down"></i>--></a>
               <ul class="cbp-tm-submenu">    
               <?php 
 			  	while($province_row = mysqli_fetch_assoc($province_result)){
-						echo "<li><a href='?province=$province_row[id]'>$province_row[name]</a></li>";
+				//		echo "<li><a href='?province=$province_row[id]'>$province_row[name]</a></li>";
 					}
 			  ?>                  
               </ul>
           </li>
-         <li><a href="#"> انتخاب استان <i class="fa fa-angle-double-left"></i></a></li>
+        <!-- <li><a href="#"> انتخاب استان <i class="fa fa-angle-double-left"></i></a></li>-->
          <?php 
 			 if(!isset($_SESSION['MM_ID'])){
-				 echo '<li><a href="'.$prefix.'/page/users/signin/"><i class="fa fa-sign-in"></i> ورود</a></li>
-				 	   <li><a href="'.$prefix.'/page/users/generate/"><i class="fa fa-user"></i> ثبت نام</a></li>';
+				 header('Location: http://emoshtary.ir');
 			 }else{
 				 $user_query = "SELECT * FROM users WHERE id = '$_SESSION[MM_ID]' ; ";
 				 $user_result = mysqli_query($connection , $user_query);
@@ -152,12 +145,7 @@
 				";
 				}
 		?>
-    	<div class="nav-ico">
-        	<a href="<?php echo $prefix; ?>/page/asnaf/categories/">
-        		<p><i class="fa fa-list"></i></p>
-                <p>فهرست مشاغل</p>
-            </a>
-        </div>
+    	
         <?php
         if(isset($_SESSION['MM_ID'])){
 			$id = $_SESSION['MM_ID'];
@@ -204,12 +192,7 @@
 		
 		?>
         
-        <div class="nav-ico">
-        	<a href="<?php echo $prefix; ?>/page/asnaf/search/">
-        		<p><i class="fa fa-search"></i></p>
-                <p>جستجو</p>
-            </a>
-        </div>
+        
         
         <div class="nav-ico">
         	<a href="http://emoshtary.ir/index.php?page=contactus">
