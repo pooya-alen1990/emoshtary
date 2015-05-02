@@ -43,7 +43,7 @@
 	    	<div class="container">
 				<div class="row">
 					<div class="col-md-4 col-sm-6">
-						<div class="in-press press-wired">
+						<div class="in-press ">
 							<a href="#">
                             	امکان استفاده از نرم افزار تبلیغاتی وایبر + بانک شماره موبایل وایبر + آموزش استفاده از نرم افزار
                             </a>
@@ -53,7 +53,7 @@
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-6">
-						<div class="in-press press-mashable">
+						<div class="in-press ">
 							<a href="#">
                             	امکان استفاده از نرم افزار ارسال انبوه ایمیل + بانک ایمیل های معتبر و جدید
                             </a>
@@ -63,7 +63,7 @@
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-6">
-						<div class="in-press press-techcrunch">
+						<div class="in-press ">
 							<a href="#">
                             	3 ماه اینترنت پر سرعت (ADSL) به صورت کاملا رایگان
                             </a>
@@ -72,10 +72,10 @@
                             </div>
 						</div>
 					</div>
-                    <div class="clearfix"></div>
-                    <hr>
+                    
+                   
                     <div class="col-md-4 col-sm-6">
-						<div class="in-press press-techcrunch">
+						<div class="in-press ">
 							<a href="#">
                             	ارائه یک پنل SMS به همراه شماره اختصاصی + بانک شماره موبایل
                             </a>
@@ -85,7 +85,7 @@
 						</div>
 					</div>
                     <div class="col-md-4 col-sm-6">
-						<div class="in-press press-techcrunch">
+						<div class="in-press ">
 							<a href="#">
                             	دسترسی به بانک اطلاعات مشاغل کل کشور به تفکیک استان، شهر و صنف
                             </a>
@@ -95,7 +95,7 @@
 						</div>
 					</div>
                     <div class="col-md-4 col-sm-6">
-						<div class="in-press press-techcrunch">
+						<div class="in-press ">
 							<a href="#">
                             	امکان معرفی خدمات و محصولات خود به دیگر اعضای شبکه در کل کشور
                             </a>
@@ -113,9 +113,9 @@
         <div class="section">
 	        <div class="container">
 	        	<div class="row">
-	        		<div class="col-md-4 col-sm-6">
-	        			<div class="service-wrapper">
-		        			<img src="img/service-icon/diamond.png" alt="Service 1">
+	        		<div class="col-md-3 col-sm-6">
+	        			<div class="service-wrapper" style="box-shadow: 0px 0px 3px red;">
+		        			<img src="img/service-icon/chat.png" alt="Service 1">
 		        			<h3>ارسال پیام به تمامی کاربران سایت</h3>
 		        			<p>
                            شما می توانید دو مرتبه در ماه پیامی تبلیغاتی به کلیه کاربران سایت ارسال نموده و برای کسب و کار خود مشتری پیدا کنید. 
@@ -123,8 +123,8 @@
 		        			<a href="?page=generate" class="btn">ثبت نام</a>
 		        		</div>
 	        		</div>
-	        		<div class="col-md-4 col-sm-6">
-	        			<div class="service-wrapper">
+	        		<div class="col-md-3 col-sm-6">
+	        			<div class="service-wrapper" style="box-shadow: 0px 0px 3px green;">
 		        			<img src="img/service-icon/ruler.png" alt="Service 2">
 		        			<h3>ویرایش اطلاعات</h3>
 		        			<p>
@@ -133,10 +133,20 @@
 		        			<a href="?page=generate" class="btn">ثبت نام</a>
 		        		</div>
 	        		</div>
-	        		<div class="col-md-4 col-sm-6">
-	        			<div class="service-wrapper">
+	        		<div class="col-md-3 col-sm-6">
+	        			<div class="service-wrapper" style="box-shadow: 0px 0px 3px blue;">
 		        			<img src="img/service-icon/box.png" alt="Service 3">
 		        			<h3>آپلود تصاویر</h3>
+		        			<p>
+                            	جهت معرفی حرفه خود می توانید به میزان نا محدود عکس در پروفایل خود آپلود کرده و در معرض نمایش عموم بگذارید.
+                            </p>
+		        			<a href="?page=generate" class="btn">ثبت نام</a>
+		        		</div>
+	        		</div>
+                    <div class="col-md-3 col-sm-6">
+	        			<div class="service-wrapper" style="box-shadow: 0px 0px 3px yellow;">
+		        			<img src="img/service-icon/diamond.png" alt="Service 3">
+		        			<h3>دسترسی به اطلاعات</h3>
 		        			<p>
                             	جهت معرفی حرفه خود می توانید به میزان نا محدود عکس در پروفایل خود آپلود کرده و در معرض نمایش عموم بگذارید.
                             </p>

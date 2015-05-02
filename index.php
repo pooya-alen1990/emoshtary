@@ -37,6 +37,7 @@ include 'panel/core/core.php';
 				auto: true,
 				pager: true,
 				nav: true,
+				timeout: 2000, 
 				speed: 500,
 				maxwidth: 1600,
 				namespace: "centered-btns"
@@ -54,9 +55,9 @@ include 'panel/core/core.php';
         <div class="mainmenu-wrapper">
 	        <div class="container">
 	        	<div class="menuextras">
-					<div class="extras">
+					<div class="extras" style="font-size:15px;">
 						<ul>
-							<span style="color:#F04F52">کد فعال سازی خود را در قسمت ثبت نام وارد نمایید >>></span>
+							<span style="color:#F04F52">کد فعال سازی خود را در <a style="color:#5D67D9" href="?page=generate">این</a> قسمت وارد نمایید >>></span>
                             <!--<li><i class="fa fa-location"></i> <a href="#">انتخاب استان</a></li>-->
                             <li><i class="fa fa-sign-in"></i> <a href="?page=login">ورود</a></li>
                             <li><i class="fa fa-user"></i> <a href="?page=generate">ثبت نام</a></li>
@@ -142,15 +143,18 @@ include 'panel/core/core.php';
 	        				<b>تلفن: </b> 2-88759591<br/>
 	        				<b>فکس: </b> 88759592<br/>
 	        				<b>ایمیل: </b> <a href="mailto:info@emoshtary.ir">info@emoshtary.ir</a>
+                            <br>
+                            <b>واحد پشتیبانی: </b> 44958948
 	        			</p>
 		    		</div>
 		    		<div class="col-footer col-md-2 col-xs-6">
 		    			<h3>شبکه های اجتماعی</h3>
-		    			<ul class="footer-stay-connected no-list-style">
-		    				<li><a href="#" class="facebook"></a></li>
-		    				<li><a href="#" class="twitter"></a></li>
-		    				<li><a href="#" class="googleplus"></a></li>
-		    			</ul>
+		    			<div class="col-social-icons">
+		    				<a href="https://www.facebook.com/raywebco" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="https://plus.google.com/communities/107271610650119455714"><i class="fa fa-google-plus"></i></a><br>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+		    			</div>
 		    		</div>
 		    	</div>
 		    	<div class="row">

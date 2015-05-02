@@ -27,6 +27,8 @@
 	        				<b>تلفن: </b> 2-88759591<br/><br>
 	        				<b>فکس: </b> 88759592<br/><br>
 	        				<b>ایمیل: </b> <a href="mailto:info@emoshtary.ir">info@emoshtary.ir</a>
+                            <br><br>
+                            <b>واحد پشتیبانی: </b> 44958948
 	        			</p>
 	        			<!-- End Contact Info -->
 	        		</div>
@@ -57,6 +59,7 @@
 											<option>انتقادات</option>
 											<option>پیشنهادات</option>
 											<option>واحد فنی</option>
+                                            <option>واحد پشتیبانی</option>
 										</select>
 									</div>
                                     <label for="contact-message" class="col-sm-3 control-label"><b>موضوع</b></label>
