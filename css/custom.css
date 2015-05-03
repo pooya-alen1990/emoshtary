@@ -270,3 +270,6 @@ i.fa-instagram:hover{
   color: #333;
   border-radius: 2px;
 }
+.service-wrapper{
+	min-height:300px;
+	}

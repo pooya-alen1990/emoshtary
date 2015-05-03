@@ -4,7 +4,7 @@
           <ul class="rslides" id="slider1">
             <li>
             	<img src="img/homepage-slider/slider-bg1.jpg" alt="">
-            	
+            	<p class="caption">شبکه ارتباط با مشتری، اولین سامانه کشوری</p>
             </li>
             
             <li>
@@ -42,30 +42,30 @@
         <div class="section">
 	    	<div class="container">
 				<div class="row">
-					<div class="col-md-4 col-sm-6">
+					<div class="col-md-4 col-sm-6 pull-right">
 						<div class="in-press ">
 							<a href="#">
-                            	امکان استفاده از نرم افزار تبلیغاتی وایبر + بانک شماره موبایل وایبر + آموزش استفاده از نرم افزار
+                            <span style="color:#FF2428">1-</span> 	امکان استفاده از نرم افزار تبلیغاتی وایبر + بانک شماره موبایل وایبر + آموزش استفاده از نرم افزار
                             </a>
                             <div class="text-center">
                             <img src="img/viber.jpg" width="100">
                             </div>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-6">
+					<div class="col-md-4 col-sm-6 pull-right">
 						<div class="in-press ">
 							<a href="#">
-                            	امکان استفاده از نرم افزار ارسال انبوه ایمیل + بانک ایمیل های معتبر و جدید
+                            <span style="color:#FF2428">2-</span>	امکان استفاده از نرم افزار ارسال انبوه ایمیل + بانک ایمیل های معتبر و جدید
                             </a>
                             <div class="text-center">
                             <img src="img/mail.png" width="100">
                             </div>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-6">
+					<div class="col-md-4 col-sm-6 pull-right">
 						<div class="in-press ">
 							<a href="#">
-                            	3 ماه اینترنت پر سرعت (ADSL) به صورت کاملا رایگان
+                            <span style="color:#FF2428">3-</span>	3 ماه اینترنت پر سرعت (ADSL) به صورت کاملا رایگان
                             </a>
                             <div class="text-center">
                             <img src="img/net.png" width="100">
@@ -74,30 +74,30 @@
 					</div>
                     
                    
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4 col-sm-6 pull-right">
 						<div class="in-press ">
 							<a href="#">
-                            	ارائه یک پنل SMS به همراه شماره اختصاصی + بانک شماره موبایل
+                            <span style="color:#FF2428">4-</span>	ارائه یک پنل SMS به همراه شماره اختصاصی + بانک شماره موبایل
                             </a>
                             <div class="text-center">
                             <img src="img/sms.jpg" width="100">
                             </div>
 						</div>
 					</div>
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4 col-sm-6 pull-right">
 						<div class="in-press ">
 							<a href="#">
-                            	دسترسی به بانک اطلاعات مشاغل کل کشور به تفکیک استان، شهر و صنف
+                            <span style="color:#FF2428">5-</span>	دسترسی به بانک اطلاعات مشاغل کل کشور به تفکیک استان، شهر و صنف
                             </a>
                             <div class="text-center">
                             <img src="img/info.png" width="100">
                             </div>
 						</div>
 					</div>
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4 col-sm-6 pull-right">
 						<div class="in-press ">
 							<a href="#">
-                            	امکان معرفی خدمات و محصولات خود به دیگر اعضای شبکه در کل کشور
+                            <span style="color:#FF2428">6-</span>	امکان معرفی خدمات و محصولات خود به دیگر اعضای شبکه در کل کشور
                             </a>
                             <div class="text-center">
                             <img src="img/introduce.jpg" width="100">
