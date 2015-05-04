@@ -111,7 +111,7 @@ if(!isset($_SESSION['MM_ID'])){
         <div class="col-sm-4 text-center">
         	<div class="text-center">
         	<img src="<?php echo $prefix; ?>/images/email.jpg" width="250" class="img-thumbnail">
-            <h4><a href="<?php echo $prefix; ?>/page/offer/mail/" class="btn-special">دانلود بانک ایمیل به تفکیک مشاغل <br> + <br> نرم افزار ارسال <br> + <br> آموزش استفاده</a></h4>
+            <h4><a href="<?php echo $prefix; ?>/page/offer/email/" class="btn-special">دانلود بانک ایمیل به تفکیک مشاغل <br> + <br> نرم افزار ارسال <br> + <br> آموزش استفاده</a></h4>
             </div>
         </div>
         <div class="col-sm-4 text-center">
