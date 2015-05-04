@@ -19,12 +19,12 @@ html,body{height:100%;}
 .ewGrid{border-collapse:separate;border-spacing:0;margin-bottom:20px;}
 .ewGrid .table{margin-bottom:0;}
 .ewGrid>tbody>tr>td>.table>tbody>tr>td:first-of-type,.ewMultiColumnTable>tbody>tr>td>.table>tbody>tr>td:first-of-type{text-align:right;}
-.ewGrid .ewGridContent{padding:0;border:1px solid #8a0a37;}
-.ewGridUpperPanel,.ewGridLowerPanel{padding:3px;border-left:0;border-right:0;background-color:#efefef;color:#8a0a37;}
-.ewGridUpperPanel{border-top:0px;border-bottom:1px solid;border-color:#8a0a37;}
+.ewGrid .ewGridContent{padding:0;border:1px solid #a0522d;}
+.ewGridUpperPanel,.ewGridLowerPanel{padding:3px;border-left:0;border-right:0;background-color:#ffcc66;color:inherit;}
+.ewGridUpperPanel{border-top:0px;border-bottom:1px solid;border-color:#8b0000;}
 .ewGridMiddlePanel{border:0;}
-.ewGridLowerPanel{border-top:1px solid;border-bottom:0px;border-color:#d5d5d5;}
-.ewGridUpperPanel td,.ewGridLowerPanel td{color:#8a0a37;}
+.ewGridLowerPanel{border-top:1px solid;border-bottom:0px;border-color:#f5deb3;}
+.ewGridUpperPanel td,.ewGridLowerPanel td{color:inherit;}
 .ewNoBorderBottom{border-bottom:0px;}
 .ewNoBorderTop{border-top:0px;}
 .ewStdTable{border:0;border-spacing:0;}
@@ -46,10 +46,10 @@ a.ewButton{min-width:49px;}
 .ewItemList{display:inline-table;}
 .ewTable{border:0;border-spacing:0;border-collapse:collapse;empty-cells:show;width:100%;}
 .ewTableSeparate{border-collapse:separate;}
-.ewTable>tbody>tr>td,.ewTable>tfoot>tr>td{padding:3px;border-bottom:1px solid;border-top:0px;border-left:0px;border-right:1px solid;border-color:#d5d5d5;}
+.ewTable>tbody>tr>td,.ewTable>tfoot>tr>td{padding:3px;border-bottom:0px solid;border-top:0px;border-left:0px;border-right:1px solid;border-color:#f5deb3;}
 .ewTableAddOpt{border:0;border-spacing:0;}
 .ewTableAddOpt td{padding:3px;border:0;}
-.ewTable .ewTableHeader,.ewTable .ewTableHeader td{background-color:#b1174d;color:#ffffff;border-bottom:1px solid;border-right:1px solid;border-color:#8a0a37;background-image:-moz-linear-gradient(top, #d26d91, #b1174d);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#d26d91), to(#b1174d));background-image:-webkit-linear-gradient(top, #d26d91, #b1174d);background-image:-o-linear-gradient(top, #d26d91, #b1174d);background-image:linear-gradient(to bottom, #d26d91, #b1174d);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d26d91', endColorstr='#b1174d', GradientType=0);background-repeat:repeat-x;vertical-align:top;padding:3px;}
+.ewTable .ewTableHeader,.ewTable .ewTableHeader td{background-color:#620000;color:#ffffff;border-bottom:1px solid;border-right:1px solid;border-color:#8b0000;background-image:-moz-linear-gradient(top, #890000, #620000);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#890000), to(#620000));background-image:-webkit-linear-gradient(top, #890000, #620000);background-image:-o-linear-gradient(top, #890000, #620000);background-image:linear-gradient(to bottom, #890000, #620000);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#890000', endColorstr='#620000', GradientType=0);background-repeat:repeat-x;vertical-align:top;padding:3px;}
 .ewTableHeaderBtn{position:relative;padding-right:12px;white-space:nowrap;}
 .ewPointer{cursor:pointer;}
 .ewTableHeaderBtn .ewTableHeaderSort{position:absolute;width:10px;top:50%;margin-top:-9px;right:0;float:right;}
@@ -58,13 +58,13 @@ a.ewButton{min-width:49px;}
 .ewTable .ewTableHeaderBtn .caret{border-top-color:#ffffff;}
 .ewTable .ewTableHeaderBtn .ewSortUp{border-bottom-color:#ffffff;}
 .ewTableRow{background-color:#ffffff;color:inherit;}
-.ewTableAltRow{background-color:#f8edef;color:inherit;}
+.ewTableAltRow{background-color:#fffbd6;color:inherit;}
 .ewTable td.ewTableLastCol{border-right:0px;}
 .ewTable td.ewTableLastRow{border-bottom:0px;}
-.ewTableEditRow>td{background-color:#ffe4e1;color:inherit;}
-.ewTableHighlightRow>td{background-color:#ffb6c1;color:inherit;}
-.ewTableSelectRow>td{background-color:#747474;color:#ffffff;}
-.ewTableFooter{background-color:#f5f5f5;color:inherit;}
+.ewTableEditRow>td{background-color:#ffff99;color:inherit;}
+.ewTableHighlightRow>td{background-color:#ffdead;color:inherit;}
+.ewTableSelectRow>td{background-color:#a52a2a;color:#ffffff;}
+.ewTableFooter{background-color:#fffacd;color:inherit;}
 .ewAggregate:after{content:": ";}
 .ewCheckbox{text-align:center;}
 .ewExportOption{padding-right:10px;display:inline-block;}
@@ -78,11 +78,11 @@ a.ewButton{min-width:49px;}
 .ewListOptionSeparator{padding-right:10px;}
 td.ewListOptionBody .ewButtonGroup img{max-width:none;}
 .ewExportTable{border:0;border-spacing:0;border-collapse:collapse;empty-cells:show;}
-.ewExportTable td{padding:3px;border-bottom:1px solid;border-top:1px solid;border-left:1px solid;border-right:1px solid;border-color:#d5d5d5;}
-.ewExportTable .ewTableHeader,.ewExportTableHeader td{background-color:#b1174d;color:#ffffff;border-bottom:1px solid;border-right:1px solid;border-color:#8a0a37;vertical-align:top;}
+.ewExportTable td{padding:3px;border-bottom:0px solid;border-top:0px solid;border-left:1px solid;border-right:1px solid;border-color:#f5deb3;}
+.ewExportTable .ewTableHeader,.ewExportTableHeader td{background-color:#620000;color:#ffffff;border-bottom:1px solid;border-right:1px solid;border-color:#8b0000;vertical-align:top;}
 .ewExportTableRow>td{background-color:#ffffff;color:inherit;}
-.ewExportTableAltRow>td{background-color:#f8edef;color:inherit;}
-.ewExportTableFooter{background-color:#f5f5f5;color:inherit;}
+.ewExportTableAltRow>td{background-color:#fffbd6;color:inherit;}
+.ewExportTableFooter{background-color:#fffacd;color:inherit;}
 .ewListExportOptions,.ewViewExportOptions,.ewViewOtherOptions{margin-bottom:20px;}
 .ewRow{margin-bottom:20px;white-space:nowrap;}
 .ewRow:last-child{margin-bottom:0;}

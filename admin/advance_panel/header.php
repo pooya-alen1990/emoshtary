@@ -88,6 +88,7 @@ var EW_MOBILE_REFLOW = false;
 </script>
 <?php } ?>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="<?php echo ew_ConvertFullUrl("favicon.ico") ?>"><link rel="icon" type="image/vnd.microsoft.icon" href="<?php echo ew_ConvertFullUrl("favicon.ico") ?>">
 <meta name="generator" content="PHPMaker v10.0.4">
 </head>
 <body>

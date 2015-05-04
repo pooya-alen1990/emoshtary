@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0"?>
 <configuration date="2015/05/04" author="e.World Technology Ltd.">
-<project id="{4488919F-A46E-4C9B-829B-4AB14E218D15}" file="" name="project1" product="PHPMaker" version="10.0" datetime="2015/05/04 16:46:44" languagefolder="phplang" userlevel="">
+<project id="{4488919F-A46E-4C9B-829B-4AB14E218D15}" file="C:\Users\pooya_alen1990\Documents\PHPMaker\Projects\project1\project1\project1.pmp" name="project1" product="PHPMaker" version="10.0" datetime="2015/05/04 17:21:50" languagefolder="phplang" userlevel="">
 <table id="admins" name="admins" caption="admins" userlevel="" priv="1"/>
 <table id="advertises" name="advertises" caption="advertises" userlevel="" priv="1"/>
 <table id="category" name="category" caption="category" userlevel="" priv="1"/>
