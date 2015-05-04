@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<configuration date="2015/05/04" author="e.World Technology Ltd.">
+<project id="{4488919F-A46E-4C9B-829B-4AB14E218D15}" file="" name="project1" product="PHPMaker" version="10.0" datetime="2015/05/04 16:46:44" languagefolder="phplang" userlevel="">
+<table id="admins" name="admins" caption="admins" userlevel="" priv="1"/>
+<table id="advertises" name="advertises" caption="advertises" userlevel="" priv="1"/>
+<table id="category" name="category" caption="category" userlevel="" priv="1"/>
+<table id="city" name="city" caption="city" userlevel="" priv="1"/>
+<table id="_email" name="email" caption="email" userlevel="" priv="1"/>
+<table id="etelaat" name="etelaat" caption="etelaat" userlevel="" priv="1"/>
+<table id="images" name="images" caption="images" userlevel="" priv="1"/>
+<table id="permissions" name="permissions" caption="permissions" userlevel="" priv="1"/>
+<table id="province" name="province" caption="province" userlevel="" priv="1"/>
+<table id="quotations" name="quotations" caption="quotations" userlevel="" priv="1"/>
+<table id="roles" name="roles" caption="roles" userlevel="" priv="1"/>
+<table id="rolespermissions" name="rolespermissions" caption="rolespermissions" userlevel="" priv="1"/>
+<table id="sub_category" name="sub_category" caption="sub category" userlevel="" priv="1"/>
+<table id="users" name="users" caption="users" userlevel="" priv="1"/>
+</project></configuration>
