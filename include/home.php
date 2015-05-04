@@ -72,7 +72,7 @@
                             </div>
 						</div>
 					</div>
-                    
+                  <div class="clearfix"></div>
                    
                     <div class="col-md-4 col-sm-6 pull-right">
 						<div class="in-press ">
