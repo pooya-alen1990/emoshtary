@@ -26,7 +26,7 @@ define("EW_CONFIG_FILE_FOLDER", EW_PROJECT_NAME . "", TRUE); // Config file name
 define("EW_PROJECT_ID", "{4488919F-A46E-4C9B-829B-4AB14E218D15}", TRUE); // Project ID (GUID)
 $EW_RELATED_PROJECT_ID = "";
 $EW_RELATED_LANGUAGE_FOLDER = "";
-define("EW_RANDOM_KEY", 'lxl9rntYK49511NI', TRUE); // Random key for encryption
+define("EW_RANDOM_KEY", 'etpiLm2JxPvwY4g9', TRUE); // Random key for encryption
 define("EW_PROJECT_STYLESHEET_FILENAME", "phpcss/project1.css", TRUE); // Project stylesheet file name
 define("EW_CHARSET", "utf-8", TRUE); // Project charset
 define("EW_EMAIL_CHARSET", EW_CHARSET, TRUE); // Email charset
@@ -58,14 +58,13 @@ define("EW_CONN_PASS", 'emoshtary1394', TRUE);
 define("EW_CONN_DB", 'emoshtary', TRUE);
 }else if(LOCAL_MODE == 1){
 	// Database connection info
+// Database connection info
 define("EW_CONN_HOST", 'localhost', TRUE);
 define("EW_CONN_PORT", 3306, TRUE);
 define("EW_CONN_USER", 'root', TRUE);
 define("EW_CONN_PASS", '', TRUE);
 define("EW_CONN_DB", 'emoshtary', TRUE);
 }
-
-
 
 // ADODB (Access/SQL Server)
 define("EW_CODEPAGE", 65001, TRUE); // Code page

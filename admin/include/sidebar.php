@@ -29,6 +29,9 @@
 	if(isset($_GET['page']) && $_GET['page']=='change_privileges'){ $change_privileges_active = 'active'; }
     	if($change_privileges == true){ echo "<li class='$change_privileges_active' ><a href='index.php?page=change_privileges'>تغییر سطح دسترسی</a></li>";}
 		
+
+    	if(true){ echo "<li><a href='advance_panel/'>پنل پیشرفته</a></li>";}
+		
 ?>   
   </ul>
 </div>

@@ -57,6 +57,7 @@ $RootMenu->AddMenuItem(11, $Language->MenuPhrase("11", "MenuText"), "roleslist.p
 $RootMenu->AddMenuItem(12, $Language->MenuPhrase("12", "MenuText"), "rolespermissionslist.php", -1, "", TRUE, FALSE);
 $RootMenu->AddMenuItem(13, $Language->MenuPhrase("13", "MenuText"), "sub_categorylist.php", -1, "", TRUE, FALSE);
 $RootMenu->AddMenuItem(14, $Language->MenuPhrase("14", "MenuText"), "userslist.php", -1, "", TRUE, FALSE);
+$RootMenu->AddMenuItem(15, $Language->MenuPhrase("15", "MenuText"), "view1list.php", -1, "", TRUE, FALSE);
 $RootMenu->Render();
 ?>
 	</div><!-- /content -->

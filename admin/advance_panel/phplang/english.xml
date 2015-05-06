@@ -375,7 +375,7 @@
 <phrase id="footertext" value="&amp;copy;2015 e.Rayweb . All rights reserved."/>
 <menu id="1"><phrase id="menutext" value="admins"/>
 </menu>
-<menu id="2"><phrase id="menutext" value="advertises"/>
+<menu id="2"><phrase id="menutext" value="تبلیغات"/>
 </menu>
 <menu id="3"><phrase id="menutext" value="category"/>
 </menu>
@@ -385,7 +385,7 @@
 </menu>
 <menu id="6"><phrase id="menutext" value="etelaat"/>
 </menu>
-<menu id="7"><phrase id="menutext" value="images"/>
+<menu id="7"><phrase id="menutext" value="تصاویر"/>
 </menu>
 <menu id="8"><phrase id="menutext" value="permissions"/>
 </menu>
@@ -399,7 +399,9 @@
 </menu>
 <menu id="13"><phrase id="menutext" value="sub category"/>
 </menu>
-<menu id="14"><phrase id="menutext" value="users"/>
+<menu id="14"><phrase id="menutext" value="اعضا"/>
+</menu>
+<menu id="15"><phrase id="menutext" value="اعضا و تبلیغات"/>
 </menu>
 <table id="admins"><phrase id="tblcaption" value="admins"/>
 <field id="id"><phrase id="fldcaption" value="id"/>
@@ -565,6 +567,70 @@
 <field id="password"><phrase id="fldcaption" value="password"/>
 </field>
 <field id="register_date"><phrase id="fldcaption" value="register date"/>
+</field>
+</table>
+<table id="view1"><phrase id="tblcaption" value="view 1"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="name"/>
+</field>
+<field id="cat_id"><phrase id="fldcaption" value="cat id"/>
+</field>
+<field id="sub_cat_id"><phrase id="fldcaption" value="sub cat id"/>
+</field>
+<field id="slogan"><phrase id="fldcaption" value="slogan"/>
+</field>
+<field id="city_id"><phrase id="fldcaption" value="city id"/>
+</field>
+<field id="province_id"><phrase id="fldcaption" value="province id"/>
+</field>
+<field id="address"><phrase id="fldcaption" value="address"/>
+</field>
+<field id="phone"><phrase id="fldcaption" value="phone"/>
+</field>
+<field id="mobile"><phrase id="fldcaption" value="mobile"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="email"/>
+</field>
+<field id="website"><phrase id="fldcaption" value="website"/>
+</field>
+<field id="keywords"><phrase id="fldcaption" value="keywords"/>
+</field>
+<field id="register_date"><phrase id="fldcaption" value="register date"/>
+</field>
+<field id="google_map"><phrase id="fldcaption" value="google map"/>
+</field>
+<field id="activate"><phrase id="fldcaption" value="activate"/>
+</field>
+<field id="user_id"><phrase id="fldcaption" value="user id"/>
+</field>
+<field id="image"><phrase id="fldcaption" value="image"/>
+</field>
+<field id="id1"><phrase id="fldcaption" value="id"/>
+</field>
+<field id="adv_email"><phrase id="fldcaption" value="adv email"/>
+</field>
+<field id="activation_code"><phrase id="fldcaption" value="activation code"/>
+</field>
+<field id="asiatech_code"><phrase id="fldcaption" value="asiatech code"/>
+</field>
+<field id="first_name"><phrase id="fldcaption" value="first name"/>
+</field>
+<field id="last_name"><phrase id="fldcaption" value="last name"/>
+</field>
+<field id="melli_code"><phrase id="fldcaption" value="melli code"/>
+</field>
+<field id="mobile1"><phrase id="fldcaption" value="mobile 1"/>
+</field>
+<field id="city_id1"><phrase id="fldcaption" value="city id 1"/>
+</field>
+<field id="province_id1"><phrase id="fldcaption" value="province id 1"/>
+</field>
+<field id="address1"><phrase id="fldcaption" value="address 1"/>
+</field>
+<field id="password"><phrase id="fldcaption" value="password"/>
+</field>
+<field id="register_date1"><phrase id="fldcaption" value="register date 1"/>
 </field>
 </table>
 </project>

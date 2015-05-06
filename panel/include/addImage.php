@@ -4,7 +4,18 @@
     <h4 class="header-small">با افزودن تصاویر کسب و کار خود را رونق بخشید.</h4>
     <br>
       
-
+<div class="row">
+        	<div class="col-sm-12">
+                <div class="alert alert-success alert-dismissible" role="alert">
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <strong> توجه! </strong>
+                   توجه داشته باشید که عکس های شما باید حجم کمتر از 500 کیلو بایت داشته باشند و فرمت آن ها jpg باشد.
+                  </div>
+            </div>
+        </div>
+        
+        
+        
 <div class="container">
 		<div class="form-container">
 			<form enctype="multipart/form-data" name='imageform' role="form" id="imageform" method="post" action="<?php echo $prefix; ?>/include/ajax.php">
