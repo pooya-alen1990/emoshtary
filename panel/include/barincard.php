@@ -6,7 +6,7 @@
     <p>استفاده 3 ماهه از مراکز طرف قرار داد برین کارت در کل کشور</p>
     <br>
     <div class="text-center">
-    	<img src="<?php echo $prefix; ?>/images/bon.jpg" width="250" class="img-thumbnail">
+    	<img src="images/bon.jpg" width="250" class="img-thumbnail">
         
     </div>
     <br>

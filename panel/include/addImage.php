@@ -18,7 +18,7 @@
         
 <div class="container">
 		<div class="form-container">
-			<form enctype="multipart/form-data" name='imageform' role="form" id="imageform" method="post" action="<?php echo $prefix; ?>/include/ajax.php">
+			<form enctype="multipart/form-data" name='imageform' role="form" id="imageform" method="post" action="include/ajax.php">
 				<div class="form-group">
 					<p>لطفا تصویر مورد نظر را انتخاب نمایید: </p>
 					<input class='file' multiple type="file" class="form-control" name="images[]" id="images" placeholder="لطفا تصویر مورد نظر را انتخاب نمایید: ">

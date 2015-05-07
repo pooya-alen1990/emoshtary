@@ -6,7 +6,7 @@
     
     <br>
     <div class="text-center">
-    	<img src="<?php echo $prefix; ?>/images/viber.jpg" width="250" class="img-thumbnail">
+    	<img src="images/viber.jpg" width="250" class="img-thumbnail">
         
     </div>
     <br>

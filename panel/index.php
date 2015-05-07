@@ -24,13 +24,13 @@
     <meta name="keywords" contenet="برین ,برین کارت ,کارت تخفیف , تخفیف کارت ,بیشترین تخفیف, کارت تخفیف برین" http-equiv="Content-Type" content="text/html">
     <meta name="description" content="برین ,برین کارت ,کارت تخفیف , تخفیف کارت ,بیشترین تخفیف, کارت تخفیف برین">
     <meta name="author" content="rayweb.ir">
-    <link rel="icon" href="<?php echo $prefix; ?>/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="<?php echo $prefix; ?>/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo $prefix; ?>/css/custom.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo $prefix; ?>/css/slider.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo $prefix; ?>/css/style.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo $prefix; ?>/css/component.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo $prefix; ?>/font-awesome/css/font-awesome.min.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/slider.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/component.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -38,7 +38,7 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script src="<?php echo $prefix; ?>/js/jquery.js"></script>
+    <script src="js/jquery.js"></script>
 </head>
 <body>
 	<nav class="navbar navbar-default navbar-fixed-top">
@@ -51,8 +51,8 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="<?php echo $prefix; ?>/">
-      	<img src="<?php echo $prefix; ?>/images/logo.png" width="70">
+      <a class="navbar-brand" href="">
+      	<img src="images/logo.png" width="70">
       </a>
     </div>
 
@@ -113,8 +113,8 @@
 				 $user_query = "SELECT * FROM users WHERE id = '$_SESSION[MM_ID]' ; ";
 				 $user_result = mysqli_query($connection , $user_query);
 				 $user_row = mysqli_fetch_assoc($user_result);
-				 echo '<li><a href="'.$prefix.'/signout.php"><i class="fa fa-sign-out"></i> خروج</a></li>
-				 	   <li><a href="'.$prefix.'/page/users/mypage/"><i class="fa fa-user"></i> '.$user_row['first_name'].' '.$user_row['last_name'].'</a></li>';
+				 echo '<li><a href="signout.php"><i class="fa fa-sign-out"></i> خروج</a></li>
+				 	   <li><a href="?page=mypage"><i class="fa fa-user"></i> '.$user_row['first_name'].' '.$user_row['last_name'].'</a></li>';
 				 }
          ?>
        
@@ -126,7 +126,7 @@
 	<nav class="nav-right text-center col-xs-1 pull-right">
     	<div class="nav-ico">
         <a href="http://emoshtary.ir">
-        	<img src="<?php echo $prefix; ?>/images/logo.png" width="90">
+        	<img src="images/logo.png" width="90">
             <br>
             <p class="logo">شبکه</p>
             <p class="logo">ارتباط با مشتری</p>
@@ -137,7 +137,7 @@
 			if(isset($_SESSION['MM_ID'])){
 				echo "
 				<div class='nav-ico'>
-        	<a href='$prefix/page/users/mypage/'>
+        	<a href='?page=mypage'>
         		<p><i class='fa fa-user'></i></p>
                 <p>صفحه من</p>
             </a>
@@ -166,14 +166,14 @@
 			 
 			if(isset($user_adv_row)){
 				echo '<div class="nav-ico">
-					<a href="'.$prefix.'/page/asnaf/addImage/">
+					<a href="?page=addImage">
 						<p><i class="fa fa-plus"></i></p>
 						<p>اضافه کردن تصویر</p>
 					</a>
 				</div>';
 			}else{
 				echo '<div class="nav-ico">
-					<a href="'.$prefix.'/page/asnaf/add/">
+					<a href="?page=add">
 						<p><i class="fa fa-plus"></i></p>
 						<p>درج آگهی</p>
 					</a>
@@ -183,7 +183,7 @@
 			
 	}else{
 		echo '<div class="nav-ico">
-					<a href="'.$prefix.'/page/asnaf/add/">
+					<a href="?page=add">
 						<p><i class="fa fa-plus"></i></p>
 						<p>درج آگهی</p>
 					</a>
@@ -248,7 +248,7 @@
             </div>
         </div>
         <div class="clearfix"></div>
-        <p class="text-center social"><a href="#"><img src="<?php echo $prefix; ?>/images/fb.png"></a><a href="#"><img src="<?php echo $prefix; ?>/images/tw.png"></a><a href="#"><img src="<?php echo $prefix; ?>/images/go.png"></a></p>
+        <p class="text-center social"><a href="#"><img src="images/fb.png"></a><a href="#"><img src="images/tw.png"></a><a href="#"><img src="images/go.png"></a></p>
     </footer>
     <div class="footer-end">
         	<h5 class="text-center">تمامی حقوق این وب سایت متعلق به شرکت یگانه نوآوران پویا می باشد.</h5>
@@ -259,20 +259,20 @@
 	var config = {
 		"opacity": 70,
 		"position": "topleft",
-		"path": "/118asnafeiran/images/watermark.png"			};		
+		"path": "images/watermark.png"			};		
 	$(document).ready(function(){
 		$(document).watermark(config);
 	});
 </script>
    
-<script src="<?php echo $prefix; ?>/js/watermark.jquery.min.js"></script> 
-<script src="<?php echo $prefix; ?>/js/jquery.easing.1.3.js"></script>
-<script src="<?php echo $prefix; ?>/js/bootstrap.min.js"></script>
-<script src="<?php echo $prefix; ?>/js/custom.js"></script>
-<script src="<?php echo $prefix; ?>/js/modernizr.custom.js"></script>
-<script src="<?php echo $prefix; ?>/js/cbpTooltipMenu.min.js"></script>
-<script src="<?php echo $prefix; ?>/js/jquery.form.min.js"></script>
-<script src="<?php echo $prefix; ?>/js/script.js"></script>
+<script src="js/watermark.jquery.min.js"></script> 
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/cbpTooltipMenu.min.js"></script>
+<script src="js/jquery.form.min.js"></script>
+<script src="js/script.js"></script>
 
 <script>
 	var menu = new cbpTooltipMenu( document.getElementById( 'cbp-tm-menu' ) );

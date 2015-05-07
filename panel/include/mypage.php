@@ -1,6 +1,6 @@
 <?php
 if(!isset($_SESSION['MM_ID'])){
-	header('Location: index.php?page=signup&msg=failed');
+	header('Location: http://emoshtary.ir/?page=signup');
 }
  $id = $_SESSION['MM_ID'];
  
@@ -63,7 +63,7 @@ if(!isset($_SESSION['MM_ID'])){
     </p>
     <p class="col-sm-6 pull-right"><span class="detail-title"> کلمات کلیدی : </span><?php echo "$user_adv_row[keywords]"; ?> </p>
     <p class="col-sm-6 pull-right"><span class="detail-title pull-right"> تصویر نشان تجاری : </span>
-		<img width="100" height="100" src="<?php echo $prefix; ?>/images/advertise/<?php echo "$user_adv_row[image]"; ?>.jpg">
+		<img width="100" height="100" src="images/advertise/<?php echo "$user_adv_row[image]"; ?>.jpg">
     </p>
     <?php } ?>
     <div class="text-center">
@@ -96,50 +96,60 @@ if(!isset($_SESSION['MM_ID'])){
 <div class="clearfix"></div>
 <div class="col-xs-12 offer">
 	 <h3 class="header-small"><i class="fa fa-star"></i> امکانات ویژه : </h3>
-    	<div class="col-sm-4 text-center">
+    	<div class="col-sm-3 text-center">
         	<div class="text-center">
-        	<img src="<?php echo $prefix; ?>/images/viber.jpg" width="250" class="img-thumbnail">
-            <h4><a href="<?php echo $prefix; ?>/page/offer/viber/" class="btn-special">دانلود نرم افزار ارسال انبوه وایبر <br>+<br> بانک شماره تلفن <br>+<br> آموزش استفاده</a></h4>
+        	<img src="images/viber.jpg" width="150" class="img-thumbnail">
+            <h4><a href="?page=viber" class="btn-special">دانلود نرم افزار ارسال انبوه وایبر <br>+<br> بانک شماره تلفن <br>+<br> آموزش استفاده</a></h4>
             </div>
         </div>
-        <div class="col-sm-4 text-center">
+        <div class="col-sm-3 text-center">
         <div class="text-center">
-       		<img src="<?php echo $prefix; ?>/images/information.jpg" width="250" class="img-thumbnail">
-            <h4><a href="<?php echo $prefix; ?>/page/offer/information/" class="btn-special" style="padding-top:50px">دانلود اطلاعات مشاغل کل کشور به تفکیک شهر، استان و صنف</a></h4>
+       		<img src="images/information.jpg" width="150" class="img-thumbnail">
+            <h4><a href="?page=information" class="btn-special" style="padding-top:50px">دانلود اطلاعات مشاغل کل کشور به تفکیک شهر، استان و صنف</a></h4>
             </div>
         </div>
-        <div class="col-sm-4 text-center">
+        <div class="col-sm-3 text-center">
         	<div class="text-center">
-        	<img src="<?php echo $prefix; ?>/images/email.jpg" width="250" class="img-thumbnail">
-            <h4><a href="<?php echo $prefix; ?>/page/offer/email/" class="btn-special">دانلود بانک ایمیل به تفکیک مشاغل <br> + <br> نرم افزار ارسال <br> + <br> آموزش استفاده</a></h4>
+        	<img src="images/email.jpg" width="150" class="img-thumbnail">
+            <h4><a href="?page=email" class="btn-special">دانلود بانک ایمیل به تفکیک مشاغل <br> + <br> نرم افزار ارسال <br> + <br> آموزش استفاده</a></h4>
             </div>
         </div>
-        <div class="col-sm-4 text-center">
+        <div class="col-sm-3 text-center">
         	<div class="text-center">
-        	<img src="<?php echo $prefix; ?>/images/internet.jpg" width="250" class="img-thumbnail">
-            <h4><a href="<?php echo $prefix; ?>/page/offer/internet/" class="btn-special" style="padding-top:55px">دسترسی به 3 ماه اینترنت رایگان</a></h4>
+        	<img src="images/internet.jpg" width="150" class="img-thumbnail">
+            <h4><a href="?page=internet" class="btn-special" style="padding-top:55px">دسترسی به 3 ماه اینترنت رایگان</a></h4>
             </div>
         </div>
-        <div class="col-sm-4 text-center">
+        <div class="col-sm-3 text-center">
+        	
+        </div>
+        <div class="col-sm-3 text-center">
         	<div class="text-center">
-        	<img src="<?php echo $prefix; ?>/images/bon.jpg" width="250" class="img-thumbnail">
-            <h4><a href="<?php echo $prefix; ?>/page/offer/bontime/" class="btn-special" style="padding-top:55px">
+        	<img src="images/bon.jpg" width="150" class="img-thumbnail">
+            <h4><a href="?page=barincard" class="btn-special" style="padding-top:55px">
             دسترسی به کارت تخفیف گروهی و کشوری برین کارت</a></h4>
             </div>
         </div>
         <!--<div class="col-sm-4 text-center">
         	<div class="text-center">
-        	<img src="<?php echo $prefix; ?>/images/web.jpg" width="250" class="img-thumbnail">
-            <h4><a href="<?php echo $prefix; ?>/page/offer/webdesign/" class="btn-special" style="padding-top:55px">طراحی وب سایت با 30% تخفیف</a></h4>
+        	<img src="images/web.jpg" width="250" class="img-thumbnail">
+            <h4><a href="page/offer/webdesign/" class="btn-special" style="padding-top:55px">طراحی وب سایت با 30% تخفیف</a></h4>
             </div>
         </div>-->
-       <div class="col-sm-4 text-center">
+       <div class="col-sm-3 text-center">
         	<div class="text-center">
-        	<img src="<?php echo $prefix; ?>/images/sms.jpg" width="250" class="img-thumbnail">
-            <h4><a href="<?php echo $prefix; ?>/page/offer/sms/" class="btn-special" style="padding-top:55px">
+        	<img src="images/sms.jpg" width="150" class="img-thumbnail">
+            <h4><a href="?page=sms" class="btn-special" style="padding-top:55px">
             ارائه یک پنل اس ام اس با شماره اختصاصی</a></h4>
             </div>
         </div>
+        <!--<div class="col-sm-3 text-center">
+        	<div class="text-center">
+        	<img src="images/sms.jpg" width="150" class="img-thumbnail">
+            <h4><a href="?page=sms" class="btn-special" style="padding-top:55px">
+            امکان ثبت نام و درج آگهی در سایت بن تایم</a></h4>
+            </div>
+        </div>-->
         
 	
 </div>

@@ -40,7 +40,7 @@
             </div>
             <div class="panel-body">
             	<div class="special text-center">
-					<img src="<?php echo $prefix; ?>/images/logo.jpg" class="watermark" width="200" height="200">
+					<img src="images/logo.jpg" class="watermark" width="200" height="200">
                		<p>آگهی اول</p>
            		 </div>
                  
@@ -54,7 +54,7 @@
             </div>
             <div class="panel-body">
             	<div class="special text-center">
-					<img src="<?php echo $prefix; ?>/images/logo.jpg" class="watermark" width="200" height="200">
+					<img src="images/logo.jpg" class="watermark" width="200" height="200">
                		<p>آگهی اول</p>
            		 </div>
                  
@@ -68,7 +68,7 @@
             </div>
             <div class="panel-body">
             	<div class="special text-center">
-					<img src="<?php echo $prefix; ?>/images/logo.jpg" width="100%">
+					<img src="images/logo.jpg" width="100%">
                		<p>آگهی اول</p>
            		 </div>
                  
@@ -82,7 +82,7 @@
             </div>
             <div class="panel-body">
             	<div class="special text-center">
-					<img src="<?php echo $prefix; ?>/images/logo.jpg" width="100%">
+					<img src="images/logo.jpg" width="100%">
                		<p>آگهی اول</p>
            		 </div>
                  
@@ -96,7 +96,7 @@
             </div>
             <div class="panel-body">
             	<div class="special text-center">
-					<img src="<?php echo $prefix; ?>/images/logo.jpg" width="100%">
+					<img src="images/logo.jpg" width="100%">
                		<p>آگهی اول</p>
            		 </div>
                  
@@ -109,7 +109,7 @@
             </div>
             <div class="panel-body">
             	<div class="special text-center">
-					<img src="<?php echo $prefix; ?>/images/logo.jpg" width="100%">
+					<img src="images/logo.jpg" width="100%">
                		<p>آگهی اول</p>
            		 </div>
                  
@@ -123,7 +123,7 @@
             </div>
             <div class="panel-body">
             	<div class="special text-center">
-					<img src="<?php echo $prefix; ?>/images/logo.jpg" width="100%">
+					<img src="images/logo.jpg" width="100%">
                		<p>آگهی اول</p>
            		 </div>
                  

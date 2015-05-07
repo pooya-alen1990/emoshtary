@@ -6,7 +6,7 @@
     <p>اینترنت رایگان به مدت 3 ماه و حجم 1 گیگابایت</p>
     <br>
     <div class="text-center">
-    	<img src="<?php echo $prefix; ?>/images/internet.jpg" width="250" class="img-thumbnail">
+    	<img src="images/internet.jpg" width="250" class="img-thumbnail">
         
     </div>
     <br>

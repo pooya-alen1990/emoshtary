@@ -2,7 +2,7 @@
 	<h3 class="header-big">نام فیلد جستجو شده</h3>
     <div class="serach-item">
     	<div class="col-sm-2 pull-right">
-        	<img class="img-thumbnail" src="<?php echo $prefix ?>/images/advertise/1429168094.jpg">
+        	<img class="img-thumbnail" src="images/advertise/1429168094.jpg">
         </div>
         <div class="col-sm-10 pull-right">
         	<h3>نام پاسخ</h3>
@@ -21,7 +21,7 @@
     
     <div class="serach-item">
     	<div class="col-sm-2 pull-right">
-        	<img class="img-thumbnail" src="<?php echo $prefix ?>/images/advertise/1429168094.jpg">
+        	<img class="img-thumbnail" src="images/advertise/1429168094.jpg">
         </div>
         <div class="col-sm-10 pull-right">
         	<h3>نام پاسخ</h3>
@@ -40,7 +40,7 @@
     
     <div class="serach-item">
     	<div class="col-sm-2 pull-right">
-        	<img class="img-thumbnail" src="<?php echo $prefix ?>/images/advertise/1429168094.jpg">
+        	<img class="img-thumbnail" src="images/advertise/1429168094.jpg">
         </div>
         <div class="col-sm-10 pull-right">
         	<h3>نام پاسخ</h3>

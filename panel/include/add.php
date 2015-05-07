@@ -2,7 +2,7 @@
 
 if(!isset($_SESSION['MM_ID'])){
 
-	header("Location: $prefix/page/user/signup/");
+	header("Location: http://emoshtary.ir/?page=signup");
 }		 
 
 $error = '';
@@ -172,7 +172,7 @@ if(isset($_POST['submit'])){
 <script>
 	$("#province").change(function(){
 		val = $("#province").val();
-    $.post("<?php echo $prefix; ?>/include/province_ajax.php",{province : val},
+    $.post("include/province_ajax.php",{province : val},
     function(data, status){
 		$('#city').removeAttr('disabled');
 		$('#city').html(data);

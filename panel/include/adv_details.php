@@ -15,7 +15,7 @@
 
 <div class="col-xs-10 col-xs-offset-1 contact">
 	<div class="col-xs-6 text-center">
-    	<img src="<?php echo $prefix ?>/images/advertise/<?php echo "$adv_row[image]"; ?>.jpg" width="150" class="img-thumbnail">
+    	<img src="images/advertise/<?php echo "$adv_row[image]"; ?>.jpg" width="150" class="img-thumbnail">
     </div>
     <div class="col-xs-6">
     	<h3 class="header-small"><?php echo "$adv_row[name]"; ?></h3>

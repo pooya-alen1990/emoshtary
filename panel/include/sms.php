@@ -6,7 +6,7 @@
     <p>ارائه یک پنل اس ام اس با شماره اختصاصی</p>
     <br>
     <div class="text-center">
-    	<img src="<?php echo $prefix; ?>/images/sms.jpg" width="250" class="img-thumbnail">
+    	<img src="images/sms.jpg" width="250" class="img-thumbnail">
         
     </div>
     <br>
