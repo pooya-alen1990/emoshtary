@@ -96,12 +96,20 @@ if(!isset($_SESSION['MM_ID'])){
 <div class="clearfix"></div>
 <div class="col-xs-12 offer">
 	 <h3 class="header-small"><i class="fa fa-star"></i> امکانات ویژه : </h3>
-    	<div class="col-sm-3 text-center">
+    	<!--<div class="col-sm-3 text-center">
         	<div class="text-center">
         	<img src="images/viber.jpg" width="150" class="img-thumbnail">
             <h4><a href="?page=viber" class="btn-special">دانلود نرم افزار ارسال انبوه وایبر <br>+<br> بانک شماره تلفن <br>+<br> آموزش استفاده</a></h4>
             </div>
+        </div>-->
+        <div class="col-sm-3 text-center">
+        	<div class="text-center">
+        	<img src="images/sms.jpg" width="150" class="img-thumbnail">
+            <h4><a href="?page=sms" class="btn-special" style="padding-top:55px">
+            ارائه یک پنل اس ام اس با شماره اختصاصی</a></h4>
+            </div>
         </div>
+        
         <div class="col-sm-3 text-center">
         <div class="text-center">
        		<img src="images/information.jpg" width="150" class="img-thumbnail">
@@ -136,13 +144,13 @@ if(!isset($_SESSION['MM_ID'])){
             <h4><a href="page/offer/webdesign/" class="btn-special" style="padding-top:55px">طراحی وب سایت با 30% تخفیف</a></h4>
             </div>
         </div>-->
-       <div class="col-sm-3 text-center">
+       <!--<div class="col-sm-3 text-center">
         	<div class="text-center">
         	<img src="images/sms.jpg" width="150" class="img-thumbnail">
             <h4><a href="?page=sms" class="btn-special" style="padding-top:55px">
-            ارائه یک پنل اس ام اس با شماره اختصاصی</a></h4>
+            ثبت</a></h4>
             </div>
-        </div>
+        </div>-->
         <!--<div class="col-sm-3 text-center">
         	<div class="text-center">
         	<img src="images/sms.jpg" width="150" class="img-thumbnail">
