@@ -15,5 +15,8 @@
             src="http://melipayamak.biz/userregister.aspx"
             width="700px">
 	</iframe>
+    <p>
+    	پس از تکمیل ثبت نام می توانید با مراجعه به آدرس <a href="www.melipayamak.biz" target="_blank">www.melipayamak.biz</a> وارد پنل اس ام اس خود شوید.
+    </p>
 </div>
 </div>
