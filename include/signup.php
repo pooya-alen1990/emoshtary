@@ -45,7 +45,7 @@ if(isset($_POST['submit'])){
  					unset($_SESSION['MM_SIGNUP']);
 					
 					$_SESSION['MM_ID'] = $user_login_row['id'];
-					header("Location: $prefix/page/user/mypage/");
+					header("Location: /panel/");
 				}
         }
     }else{
