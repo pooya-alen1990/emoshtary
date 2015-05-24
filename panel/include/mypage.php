@@ -44,7 +44,7 @@ if(!isset($_SESSION['MM_ID'])){
 		if(!isset($user_adv_row)){
 			echo "
 			
-				<p>شما هنوز اطلاعاتی وارد نکرده اید. در صورت نیاز <a href='$prefix/page/asnaf/add/'>کلیک</a> کنید.</p>
+				<p>شما هنوز اطلاعاتی وارد نکرده اید. در صورت نیاز <a href='/panel/?page=add'>کلیک</a> کنید.</p>
 			";
 			}else{
 			
